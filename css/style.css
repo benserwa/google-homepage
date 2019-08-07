@@ -90,13 +90,22 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: lightgrey;
+  color:rgba(0,0,0,.54);
+  background-color:#f2f2f2;
+}
+
+footer a:link {
+	color:rgba(0,0,0,.54);
 }
 
 .region {
 	border-style: solid none;
 	border-width: 1px;
-	border-color: grey;
+	border-color: rgb(228, 228, 228);
 	padding-left: 15px;
 	font-size: 15px;
+}
+
+footer li {
+	padding-top: 0px;
 }
